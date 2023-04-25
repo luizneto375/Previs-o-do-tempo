@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: ur("https://source.unsplash.com/1600x900/?landscape");
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
     background-color: aqua;
 }
 
@@ -29,7 +29,7 @@ body {
     
 }
 
-input {
+.digite {
     border: none;
     outline: none;
     padding: 10px;
@@ -40,7 +40,7 @@ input {
     width: calc(100% - 70px);
 }
 
-button {
+.procurar {
     border: none;
     outline: none;
     padding: 10px;
