@@ -15,12 +15,81 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-image: ur("https://source.unsplash.com/1600x900/?landscape");
+    background-color: aqua;
 }
 
 .conteudo {
-    background-color: #000000;
+    background-color: #0a0a0a;
     opacity: 0.8;
     border-radius: 25px;
     padding: 20px;
+    width: 95%;
+    max-width: 450px;
+    
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: #8e7f7f2b;
+    color: #ffffff;
+    width: calc(100% - 70px);
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #c5c4c42b;
+    cursor: pointer;
+    float: right;
+}
+
+.lupa {
+   width: 18px; 
+}
+
+.conteudo-do-meio {
+    margin-top: 30px;
+    
+}
+
+.tempo {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    
+}
+
+.temperatura {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.nuvem {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    font-weight: 300;
+}
+
+.nublado-2 {
+    color: #ffffff;
+    margin-left: 8px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.umidade {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 14px;
 }
