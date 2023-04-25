@@ -17,3 +17,10 @@ body {
     align-items: center;
     background-image: url("https://source.unsplash.com/1600x900/?landscape");
 }
+
+.conteudo {
+    background-color: #000000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+}
